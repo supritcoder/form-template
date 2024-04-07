@@ -1,0 +1,44 @@
+/* Style the tab container */
+.Tabs {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #f22e2e;
+    border-radius: 5px;
+  }
+  
+  /* Style the tab list */
+  .TabList {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style each individual tab */
+  .Tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #cf3535;
+    border: 1px solid #a72c2c;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .Tab:first-child {
+    border-radius: 5px 0 0 0;
+  }
+  
+  /* Style the active tab */
+  .Tab.active {
+    background-color: #de2828;
+    border-bottom: 1px solid #a82c2c;
+  }
+  
+  /* Style the tab panel */
+  .TabPanel {
+    padding: 20px;
+    border: 1px solid #962828;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+  }
+  
